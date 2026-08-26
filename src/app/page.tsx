@@ -213,13 +213,15 @@ export default function Home() {
                   </h3>
 
                   <p className="mt-5 max-w-xl leading-7 text-zinc-400">
-                    Developed a web-based training resource for new consultants
-                    covering professional conduct and preparation for virtual
-                    and in-person consulting interactions.
+                    Independently developed an interactive training platform during my
+                    consulting internship to prepare new consultants for professional
+                    client interactions. Used AI-assisted development to build a structured
+                    learning experience combining instructional content, video-based
+                     training, and a knowledge-check quiz for virtual and in-person meetings.
                   </p>
 
                   <div className="mt-7 flex flex-wrap gap-2">
-                    {["Web Development", "Consulting", "Training", "UX"].map(
+                    {["AI-Assisted Development", "Web Development", "Consulting", "Training Design"].map(
                       (tag) => (
                         <span
                           key={tag}
